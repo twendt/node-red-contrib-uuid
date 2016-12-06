@@ -1,0 +1,14 @@
+{
+    "name"         : "node-red-contrib-uuid",
+    "version"      : "0.0.1",
+    "description"  : "A node for node-red to a uuid",
+    "dependencies": {
+        "uuid": "latest"
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "uuid": "uuid/uuid.js"
+        }
+    }
+}
